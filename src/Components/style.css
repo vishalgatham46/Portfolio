@@ -1,0 +1,440 @@
+body{
+    background-color: lightcyan;
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/* home components */
+
+
+.NavigationContainer{
+    background-color: rgb(251, 203, 212);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    height: 75px;
+    display: flex;
+}
+.topname{
+    color: rgba(44, 44, 180, 0.747);
+    font-size: xx-large;
+    position: relative;
+    left: 90px;
+    width: 30%;
+}
+.navbar{
+    display: flex;
+    width: 50%;
+    left: 45%;
+    color: rgb(66, 63, 63);
+    justify-content: space-around;
+    position: absolute;
+    top: 30px;
+    font-size: large;
+}
+
+.links{
+    color: rgb(66, 63, 63);
+    text-decoration: none;
+}
+
+/* home components */
+
+.HomeContainer{
+    position: relative;
+    top: 40px;
+    height: 350px;
+    background: linear-gradient(to right, #360033, #0b8793);    color: white;
+
+}
+.home{
+    width: 100%;
+    height: 300px;
+    font-size: large;
+    /* padding-top: 60px;
+    padding-left: 50px; */
+    
+}
+#name{
+    font-size:xx-large;
+    color: #8ddce9;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 50%;
+    font-weight: bold;
+}
+#role{
+    font-size: x-large;
+    font-weight: bold;
+    color: #f89f8a;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 50%;
+}
+#bio{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 50%;
+}
+#hirebtn{
+    background-color: #007af5;
+    color: aliceblue;
+    width: 8%;
+    border-radius: 5px;
+    height: 30px;
+    border: 0px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+#resumebtn{
+    background-color: #ff355e;
+    color: aliceblue;
+    width: 10%;
+    border-radius: 5px;
+    height: 30px;
+    border: 0px;
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+.containerimage{
+    position: absolute;
+    top: 65px;
+    left: 900px;
+}
+
+
+/* about components */
+
+.AboutContainer{
+    border: 2px solid #c4dae9;
+    border-radius: 30px;
+    background-color: #c4dae9;
+    width: 70%;
+    text-align: left;
+    height: 450px;
+    position: relative;
+    left: 210px;
+    top: 80px;
+    box-shadow: 3px 3px 20px #13040491;
+
+}
+.about{
+    width: 60%;
+    /* height: 220px; */
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    color: #111384bf;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    text-align: justify;
+}
+.under{
+    text-decoration: underline;
+    text-decoration-color: #0058ff9c;
+    text-decoration-thickness: 5px;
+}
+
+.TechnologyContainer{
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+    width: 60%;
+    box-shadow: 3px 3px 20px #13040491;
+    height: 130px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+#lang{
+    margin-left: 25px;
+    /* margin-top: 10px; */
+    color: #111384;
+
+}
+.techimg{
+    width: 60px;
+    height: 60px;
+}
+.aboutimage{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: -380px;
+    left: 660px;
+}
+
+.TechImages{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+
+/* Portfolio container */
+
+.PortfolioContainer{
+    
+    top: 60px;
+    position: relative;
+
+}
+.portfolio{
+    height: 100px;
+    width: 100%;
+}
+#port{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    color: #111384bf;
+}
+.portimages{
+    /* height: 400px; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    left: 150px;
+}
+.img1{
+    width: 25%;
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid #0000002e;
+    margin-right: 30px;
+    image-rendering: pixelated;
+    background-color: navy;
+}
+.img2{
+    width: 35%;
+    height: 260px;
+    border-radius: 30px;
+    border: 2px solid #0000002e;
+    margin-right: 30px;
+    image-rendering: pixelated;
+    background-color: navy;
+}
+/* .img2{
+    width: 30%;
+    height:300px;
+    border-radius: 30px;
+    border: 2px solid #0000002e;
+    margin-right: 30px;
+    image-rendering: pixelated;
+
+}
+.img3{
+    width: 30%;
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid #0000002e;
+    margin-right: 30px;
+    image-rendering: pixelated;
+
+} */
+
+
+/* Resume container */
+
+h3,h2{
+    color: rgb(13, 40, 187);
+}
+
+.ResumeContainer{
+    position: relative;
+    top: 130px;
+    /* height: 400px; */
+}
+#resumehead{ 
+    /* position: relative; */
+    text-align: center;
+    /* top: -70px; */
+    color: #111384bf;
+}
+.college{
+    position: relative;
+    left: 90px;
+    width: 40%;
+    height: 200px;
+}
+.collagename{
+    padding-left: 40px;
+}
+.course{
+    padding-left: 40px;
+    font-weight: bold;
+    color: rgb(10, 79, 153)
+}
+.courseabout{
+    padding-left: 40px;
+}
+#year{
+    position: absolute;
+    left: 80%;
+    top: 56px;
+    border: 1px solid #0058ff9c;
+    width: 14%;
+    color: white;
+    background-color: #0058ff9c;
+    font-weight: bolder;
+    border-radius: 30px;
+    text-align: center;
+}
+.vline{
+    border-left: 6px solid rgb(10, 79, 153);
+    height: 100px;
+    position: relative;
+    left: 2.2%;
+    top: -130px;
+}
+.vline2{
+    border: 6px solid rgb(10, 79, 153);
+    border-radius: 50px;
+    height: 10px;
+    position: relative;
+    left: 1%;
+    top: -112px;
+    width: 10px;
+    background-color: rgb(10, 79, 153);
+}
+.resumeimage{
+    width: 40%;
+    position: absolute;
+    left: 900px;
+    top: 50px;
+}
+.img4{
+    width: 40%;
+    height: 300px;
+}
+.Profilelinks{
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    width:40%;
+    box-shadow: 3px 3px 20px #13040491;
+    /* height: 55px; */
+    font-size: 30px;
+    color: #111384;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* .email{
+    width: 12%;
+    position: relative;
+    top: 7px;
+    left: 10px;
+} */
+/* a{
+    padding-right: 25px;
+} */
+
+
+/* projects container */
+
+.ProjectsContainer{
+    position: relative;
+    top: 110px;
+}
+
+.ProjectLink{
+    padding-left: 40px;
+    /* text-decoration: none; */
+    color: black;
+}
+/* .ProjectLink:hover{
+    transform: scale(1.5);
+} */
+
+.projectline2{
+    top: -95px;
+}
+
+.projectline1{
+    top: -105px;
+    height: 85px;
+    width: 10px;
+}
+.projectBlock{
+    height: 150px;
+}
+
+/* contact container */
+
+#contact{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    color: #111384bf;
+}
+.lastcontainer{
+    width: 80%;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 250px
+}
+.address{
+    background-color: white;
+    width: 30%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    padding-left: 80px;
+    color: rgb(62, 85, 109);
+}
+h2{
+    color: rgb(10, 79, 153);
+}
+.ContactIcons{
+    color: lightslategrey;
+    font-size: larger;
+}
+.form{
+    width: 30%;
+    background-color: lightsalmon;
+    background-color: lightsalmon;
+    padding: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    padding-left: 80px;
+    color: rgb(57, 82, 109);
+}
+.area{
+    width: 90%;
+}
+.sendbtn{
+    background-color: #0058ff9c;
+    color: aliceblue;
+    width: 40%;
+    border-radius: 5px;
+    height: 30px;
+    border: 0px;
+}
+
+
+/* footer component */
+
+.footerContainer{
+    background-color: lightsalmon;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    height: 50px;
+    display: flex;
+}
