@@ -54,7 +54,9 @@ const About = () => {
       <span>
         <img className="aboutimage" src={titleimg} alt="" />
       </span>
+
     </div>
+    
   );
 };
 

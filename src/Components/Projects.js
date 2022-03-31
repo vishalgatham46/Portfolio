@@ -19,7 +19,7 @@ const Projects = () => {
           target="blank"
           rel="noopener noreferrer"
         >
-          Click Here to visit the page
+          Visit the Page
         </a>
         <div className="vline2 projectline2"></div>
         <div className="vline projectline1"></div>
@@ -34,7 +34,7 @@ const Projects = () => {
           target="blank"
           rel="noopener noreferrer"
         >
-          Click Here to visit the page
+          Visit the Page
         </a>
         <div className="vline2 projectline2"></div>
         <div className="vline projectline1"></div>
@@ -46,10 +46,11 @@ const Projects = () => {
         <a
           href="https://vishalgatham46.github.io/clockproject/"
           className="ProjectLink"
+          id="Linkanim"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Click Here to visit the page
+          Visit the Page
         </a>
         <div className="vline2 projectline2"></div>
         <div className="vline projectline1"></div>

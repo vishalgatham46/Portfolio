@@ -1,9 +1,14 @@
 import React from "react";
 import "./style.css";
+import Projects from './Projects';
+
 import image6 from "../Images/Vishal Gatham.jpg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
+
+
+
 const Resume = () => {
   return (
     <>
@@ -66,7 +71,7 @@ const Resume = () => {
         </div>
       </div>
     </div>
-   
+    <Projects/>
     </>
   );
 };
